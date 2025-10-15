@@ -44,7 +44,7 @@ export default function UploadPage() {
 
     getUser()
     getCategories()
-  }, [])
+  }, [supabase])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()

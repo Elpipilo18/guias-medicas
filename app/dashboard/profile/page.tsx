@@ -52,7 +52,7 @@ export default function ProfilePage() {
     }
     
     getProfile()
-  }, [])
+  }, [supabase, router])
   
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
